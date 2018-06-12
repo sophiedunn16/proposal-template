@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+
+/* Generic Styles */
+
+body {
+  font-family: 'Lato', sans-serif;
+  color:#5a5a5a;
+}
+
+section {
+  /* border: 1px solid #cccccc;*/
+  padding: 5% 10%;
+}
+
+p {
+  margin-bottom: .8rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-position: inside;
+  font-weight: 300;
+}
+
+li {
+  line-height: 1.4;
+  margin-bottom: .5rem;
+}
+
+h1 {
+  font-size: 6vh;
+  font-weight:800;
+  margin-bottom: 0.5rem;
+}
+
+h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: .8rem;
+  color: #e53260;
+}
+
+h3 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+h4 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+hr {
+  border: none;
+  border-bottom: 3px solid #e53260;
+  width: 50px;
+  margin: 0 0 2rem;
+}
+
+a {
+  color: #e53260;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  padding-bottom: 2px;
+}
+
+a:hover {
+  color:#787878;
+}
+
+/* Classes */
+
+.banner {
+  min-height: 100vh;
+  background-image: url("../images/palm-background.png");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.footer {
+  background-color: #e53260;
+  color: white;
+  text-align: center;
+}
+
+.footer h2 {
+  color:#ffffff;
+}
+
+.footer a {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.footer hr {
+  border-bottom: 3px solid #ffffff;
+  margin: auto; /* this will center text to the container styling */
+  margin-bottom: 2rem;
+}
